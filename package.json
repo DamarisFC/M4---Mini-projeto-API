@@ -1,0 +1,24 @@
+{
+  "name": "m4---mini-projeto-api",
+  "version": "1.0.0",
+  "description": "- Nem sempre é fácil saber onde buscar apoio social, especialmente em regiões periféricas. Essa API tem como objetivo facilitar o acesso a informações sobre unidades do CRAS, CREAS e CENTRO POP da Zona Norte de São Paulo. A partir do CEP, o usuário poderá localizar as unidades mais próximas e os serviços que elas oferecem.",
+  "main": "api.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DamarisFC/M4---Mini-projeto-API.git"
+  },
+  "keywords": [],
+  "author": "",
+  "type": "module",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DamarisFC/M4---Mini-projeto-API/issues"
+  },
+  "homepage": "https://github.com/DamarisFC/M4---Mini-projeto-API#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
