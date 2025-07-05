@@ -12,9 +12,9 @@
 
 # Endpoints
 
-Método	| Rota                    |Descrição
-GET	    | unidades                |Lista todas as unidades sociais cadastradas.
-GET	    | unidades/cep/:cep	      |Filtra unidades sociais pelo prefixo do CEP.
+Método	| Rota                      |Descrição
+GET	    | unidades                  |Lista todas as unidades sociais cadastradas.
+GET	    | unidades/cep/:cep	        |Filtra unidades sociais pelo prefixo do CEP.
 GET	    | unidades/servicos/:tipo	|Mostra os serviços disponíveis por tipo de unidade (CRAS, etc).
 GET	    | unidades/bairro/:bairro	|Lista unidades localizadas em um bairro específico.
 
