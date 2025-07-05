@@ -18,7 +18,7 @@ const obterCoordenadasPorCep = async (cep) => {
 const ServicoController = {
   buscarServicosProximos: async (req, res) => {
     const { cep } = req.params;
-    if (!cep) return res.status(400).json({ erro: 'CEP é obrigatório' });
+    //if (!cep) return res.status(400).json({ erro: 'CEP é obrigatório' });
 
     try {
       const localUsuario = await obterCoordenadasPorCep(cep);
