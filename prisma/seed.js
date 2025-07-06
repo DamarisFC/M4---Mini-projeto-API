@@ -67,7 +67,7 @@ import fs from 'fs';
 const prisma = new PrismaClient();
 
 const unidades = JSON.parse(
-  fs.readFileSync('./prisma/unidades.json', 'utf-8')
+  fs.readFileSync('./data/unidades.json', 'utf-8')
 );
 
 async function main() {
