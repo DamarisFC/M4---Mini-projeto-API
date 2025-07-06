@@ -3,7 +3,8 @@ import ServicoController from '../controllers/ServicoController.js';
 
 const router = express.Router();
 
-router.get('/servicos/:servicos', ServicoController.buscarServicosProximos);
+//router.get('/servicos/:servicos', ServicoController.buscarServicosProximos);
+router.get('/servicos/:cep', ServicoController.buscarServicosProximos);
 router.get('/tipos-servico', ServicoController.listarTiposServico);
 router.get('/unidade/:id', ServicoController.buscarUnidadePorId);
 

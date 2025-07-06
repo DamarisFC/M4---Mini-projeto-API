@@ -25,7 +25,14 @@ const ServicoController = {
       const unidades = ServicoModel.getUnidades();
       const unidadesComDistancia = unidades.map(u => ({
         ...u,
-        distancia_km: calcularDistancia(localUsuario, u.coordenadas)
+        //distancia_km: calcularDistancia(localUsuario, u.coordenadas)
+
+        distancia_km: calcularDistancia(localUsuario, {
+          lat: u.latitude,
+          lon: u.longitude
+        })
+
+
       }));
       const proximas = unidadesComDistancia.sort((a, b) => a.distancia_km - b.distancia_km).slice(0, 5);
       res.json(proximas);
