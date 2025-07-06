@@ -10,9 +10,20 @@ export default ServicoModel;*/
 
 import { readFileSync } from 'fs';
 
-const unidades = JSON.parse(
+
+try {
+  const unidades = JSON.parse(
+    readFileSync(new URL('../data/unidades.json', import.meta.url))
+  );
+  console.log('Unidades carregadas com sucesso!');
+} catch (error) {
+  console.error('Erro ao carregar unidades:', error);
+}
+
+
+/*const unidades = JSON.parse(
   readFileSync(new URL('../data/unidades.json', import.meta.url))
-);
+);*/
 
 const ServicoModel = {
   getUnidades: () => unidades,

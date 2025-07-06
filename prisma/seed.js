@@ -1,4 +1,4 @@
-import { PrismaClient } from '@prisma/client';
+/*import { PrismaClient } from '@prisma/client';
 const prisma = new PrismaClient();
 
 const unidades = [
@@ -57,4 +57,34 @@ async function main() {
 
 main()
   .catch((e) => console.error(e))
+  .finally(() => prisma.$disconnect());*/
+
+
+
+import { PrismaClient } from '@prisma/client';
+import fs from 'fs';
+
+const prisma = new PrismaClient();
+
+const unidades = JSON.parse(
+  fs.readFileSync('./prisma/unidades.json', 'utf-8')
+);
+
+async function main() {
+  console.log('Limpando tabela...');
+  await prisma.unidade.deleteMany();
+
+  console.log('Inserindo dados...');
+  for (const unidade of unidades) {
+    await prisma.unidade.create({ data: unidade });
+  }
+
+  console.log('Dados inseridos com sucesso!');
+}
+
+main()
+  .catch((e) => {
+    console.error('Erro ao executar seed:', e);
+    process.exit(1);
+  })
   .finally(() => prisma.$disconnect());
