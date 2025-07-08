@@ -11,10 +11,10 @@ export function filterByProperty(property, value) {
 
     if (Array.isArray(prop)) {
       return prop.some((p) =>
-        p.toLowerCase().includes(capitalized.toLowerCase())
+        p.toLowerCase().startsWith(capitalized.toLowerCase())
       );
     } else if (typeof prop === 'string') {
-      return prop.toLowerCase().includes(capitalized.toLowerCase());
+      return prop.toLowerCase().startsWith(capitalized.toLowerCase());
     }
     return false;
   });
