@@ -1,4 +1,4 @@
-import fs from 'fs';
+
 
 // const unidades = JSON.parse(
 //   fs.readFileSync('./data/unidades.json', 'utf-8')
@@ -19,7 +19,7 @@ import fs from 'fs';
 //         }
 //     });
 // } 
-
+//import fs from 'fs';
 import { readFileSync } from 'fs';
 
 export function filterByProperty(property, value) {

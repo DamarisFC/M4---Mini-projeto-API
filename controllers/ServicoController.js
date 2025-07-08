@@ -1,5 +1,5 @@
 import ServicoModel from '../models/ServicoModel.js';
-import calcularDistancia from '../utils/calcularDistancia.js';
+//import calcularDistancia from '../utils/calcularDistancia.js';
 import { filterByProperty } from '../utils/filtrarPropriedade.js';
 
 const ServicoController = {
