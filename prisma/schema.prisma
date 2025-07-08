@@ -21,8 +21,7 @@ model Unidade {
   telefone      String
   horario       String
   acessibilidade Boolean
-  latitude      Float
-  longitude     Float
+  servico       String
 }
 
 

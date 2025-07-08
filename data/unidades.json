@@ -6,8 +6,8 @@
     "telefone": "(11) 2955-8400",
     "horario": "Seg a Sex, 8h às 18h",
     "acessibilidade": true,
-    "latitude": -23.5153,
-    "longitude": -46.5869
+    "servico": "Cadastro Único para Programas Sociais"
+
   },
   {
     "nome": "CRAS Vila Medeiros",
@@ -16,8 +16,8 @@
     "telefone": "(11) 2201-8100",
     "horario": "Seg a Sex, 8h às 18h",
     "acessibilidade": true,
-    "latitude": -23.4945,
-    "longitude": -46.5902
+    "servico": "Cadastro Único para Programas Sociais"
+    
   },
   {
     "nome": "CREAS Vila Maria",
@@ -26,8 +26,8 @@
     "telefone": "(11) 2636-5000",
     "horario": "Seg a Sex, 9h às 18h",
     "acessibilidade": true,
-    "latitude": -23.5059,
-    "longitude": -46.5748
+    "servico": "Proteção Social Especial para famílias e indivíduos em situação de risco social"
+   
   },
   {
     "nome": "Centro POP Vila Maria",
@@ -36,7 +36,7 @@
     "telefone": "(11) 2633-5900",
     "horario": "Seg a Sex, 8h às 18h",
     "acessibilidade": true,
-    "latitude": -23.4877,
-    "longitude": -46.5964
+    "servico": "Serviço Especializado para Pessoas em Situação de Rua"
   }
 ]
+
