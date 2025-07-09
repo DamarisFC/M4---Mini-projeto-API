@@ -1,5 +1,4 @@
 import ServicoModel from '../models/ServicoModel.js';
-//import calcularDistancia from '../utils/calcularDistancia.js';
 import { filterByProperty } from '../utils/filtrarPropriedade.js';
 
 const ServicoController = {
@@ -11,8 +10,9 @@ const ServicoController = {
   },
 
   listarTiposServico: (req, res) => {
-    const tipos = ServicoModel.getTiposServico();
-    res.json(tipos);
+   const {tipo} =req.params;
+   const tipoImagem = filterByProperty("tipo", tipo)
+   res.json(tipoImagem);
   },
 
   buscarUnidadePorId: (req, res) => {
