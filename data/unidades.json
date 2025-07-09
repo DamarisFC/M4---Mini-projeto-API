@@ -6,7 +6,8 @@
     "telefone": "(11) 2955-8400",
     "horario": "Seg a Sex, 8h às 18h",
     "acessibilidade": true,
-    "servico": "Cadastro Único para Programas Sociais"
+    "servico": "Cadastro Único para Programas Sociais",
+    "imagem": "https://www.encontravilamaria.com.br/imgs/imagens-vila-maria/cras-vila-maria.jpg"
 
   },
   {
@@ -16,7 +17,8 @@
     "telefone": "(11) 2201-8100",
     "horario": "Seg a Sex, 8h às 18h",
     "acessibilidade": true,
-    "servico": "Cadastro Único para Programas Sociais"
+    "servico": "Cadastro Único para Programas Sociais",
+    "imagem": "https://imgur.com/a/gO2fzF2"
     
   },
   {
@@ -26,7 +28,8 @@
     "telefone": "(11) 2636-5000",
     "horario": "Seg a Sex, 9h às 18h",
     "acessibilidade": true,
-    "servico": "Proteção Social Especial para famílias e indivíduos em situação de risco social"
+    "servico": "Proteção Social Especial para famílias e indivíduos em situação de risco social",
+    "imagem": "https://i.imgur.com/xSeGoG1.png"
    
   },
   {
@@ -36,7 +39,8 @@
     "telefone": "(11) 2633-5900",
     "horario": "Seg a Sex, 8h às 18h",
     "acessibilidade": true,
-    "servico": "Serviço Especializado para Pessoas em Situação de Rua"
+    "servico": "Serviço Especializado para Pessoas em Situação de Rua",
+    "imagem": "https://i.imgur.com/A9ZkHNZ.png"
   }
 ]
 

@@ -22,15 +22,6 @@ model Unidade {
   horario       String
   acessibilidade Boolean
   servico       String
+  imagem        String?
 }
 
-
-
-
-
-
-//adicionar modelo de dados 
-//configurar o prisma
-//popular o banco de dado
-//usar Prisma seed
-//mexer no aquivo .env
