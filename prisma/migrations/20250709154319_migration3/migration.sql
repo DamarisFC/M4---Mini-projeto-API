@@ -1,2 +1,2 @@
 -- AlterTable
-ALTER TABLE "Unidade" ADD COLUMN     "imagem" TEXT;
+ALTER TABLE "Unidade" ADD COLUMN "imagem" TEXT;

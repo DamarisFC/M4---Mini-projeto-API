@@ -16,8 +16,9 @@ const ServicoModel = {
   getUnidades: () => unidades,
   getTiposServico: () => [...new Set(unidades.map(u => u.servico))],
   getUnidadePorId: (id) => unidades.find(u => u.id === id)
-};
+}
 
+console.log(ServicoModel.getUnidades())
 export default ServicoModel;
 
-console.log (ServicoModel.getTiposServico());
+//console.log (ServicoModel.getTiposServico());

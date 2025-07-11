@@ -14,7 +14,7 @@ datasource db {
 }
 
 model Unidade {
-  id            Int      @id @default(autoincrement())
+  id            Int      @id
   nome          String
   tipo          String
   endereco      String
